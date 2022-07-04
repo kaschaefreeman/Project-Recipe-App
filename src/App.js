@@ -15,7 +15,7 @@ function App() {
   };
 
   /*helper function that into the useState of recipes. 
-  It takes filters the list of recipes to exlude the list item by index given
+  It takes filters the list of recipes to exclude the list item by index given
   Function is called on in the Recipe Delete Component rendered by the Recipe List component*/
   const deleteRecipe = (indexToDelete) => {
     const filteredList = recipes.filter(
@@ -36,3 +36,4 @@ function App() {
 }
 
 export default App;
+
