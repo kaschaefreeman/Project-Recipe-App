@@ -13,7 +13,7 @@ function RecipeList({ recipes, deleteRecipe }) {
           <td>{name}</td>
           <td>{cuisine}</td>
           <td>
-            <img src={photo} alt={`photo of ${name} recipe`} />
+            <img src={photo} alt={`${name}`} />
           </td>
           <td className="content_td">
             <p>{ingredients}</p>
@@ -38,7 +38,7 @@ function RecipeList({ recipes, deleteRecipe }) {
             <th>Cuisine</th>
             <th>Photo</th>
             <th className="wide_column">Ingredients</th>
-            <th className="wide_column">Preperation</th>
+            <th className="wide_column">Preparation</th>
             <th>Actions</th>
           </tr>
         </thead>
@@ -49,3 +49,4 @@ function RecipeList({ recipes, deleteRecipe }) {
 }
 
 export default RecipeList;
+
